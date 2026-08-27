@@ -1,7 +1,7 @@
 {
   "versionCode": 4,
   "versionName": "2.0",
-  "apkUrl": "https://github.com/NoctyVT/Futbolparatodos/releases/download/2.0/Futbol2.0.apk",
-  "changelog": "Actualizacion necesaria para seguir usando la app",
-  "mandatory": true
+  "apkUrl": "https://github.com/NoctyVT/Futbolparatodos/releases/download/2.1/app-release.apk",
+  "changelog": "Solucionado el bug de la intro",
+  "mandatory": false
 }
