@@ -1,7 +1,7 @@
 {
   "versionCode": 1,
   "versionName": "1.0",
-  "apkUrl": "",
+  "apkUrl": "https://github.com/NoctyVT/Futbolparatodos/releases/download/1.0/FutbolLibre1.0.apk",
   "changelog": "Primera versión pública de Fútbol Para Todos.",
   "mandatory": false
 }
