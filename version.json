@@ -1,7 +1,7 @@
 {
-  "versionCode": 3,
-  "versionName": "1.1 release",
+  "versionCode": 4,
+  "versionName": "2.0",
   "apkUrl": "https://github.com/NoctyVT/Futbolparatodos/releases/download/1.1/app-release.apk",
-  "changelog": "Correccion de pagina caida en Futbol Internacional",
-  "mandatory": false
+  "changelog": "Actualizacion necesaria para seguir usando la app",
+  "mandatory": true
 }
