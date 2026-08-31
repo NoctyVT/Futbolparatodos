@@ -836,7 +836,7 @@
       "name": "ESPN 1",
       "country": "international",
       "category": "sports",
-      "logo": "",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe8Ut9Wu8QH3xIdsBxEvgvoRnhjiAAzaFRqap3QZqwpA&s=10",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -858,7 +858,7 @@
       "name": "ESPN 2",
       "country": "international",
       "category": "sports",
-      "logo": "",
+      "logo": "https://images.seeklogo.com/logo-png/4/1/espn-2-logo-png_seeklogo-49202.png",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -880,7 +880,7 @@
       "name": "ESPN 3",
       "country": "international",
       "category": "sports",
-      "logo": "",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPHe9Yx2LRylEe48lkz4IaDQ7ydbjLv5ZnIS3ptZqyBS0JziFvk5BH5B6b&s=10",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -902,7 +902,7 @@
       "name": "ESPN 4",
       "country": "international",
       "category": "sports",
-      "logo": "",
+      "logo": "https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN4.png.eb49e6eecab0c1a9e2c758279e2a6784.png",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -924,7 +924,7 @@
       "name": "ESPN 5",
       "country": "international",
       "category": "sports",
-      "logo": "",
+      "logo": "https://images.seeklogo.com/logo-png/52/1/espn-5-logo-png_seeklogo-522715.png",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -946,7 +946,7 @@
       "name": "ESPN 6",
       "country": "international",
       "category": "sports",
-      "logo": "",
+      "logo": "https://images.seeklogo.com/logo-png/52/1/espn-6-logo-png_seeklogo-522717.png",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -968,7 +968,7 @@
       "name": "ESPN 7",
       "country": "international",
       "category": "sports",
-      "logo": "",
+      "logo": "https://images.seeklogo.com/logo-png/52/1/espn-7-logo-png_seeklogo-522718.png",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -990,7 +990,7 @@
       "name": "DSPORTS 1",
       "country": "international",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1012,7 +1012,7 @@
       "name": "DSPORTS 2",
       "country": "international",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1034,7 +1034,7 @@
       "name": "DSPORTS PLUS",
       "country": "international",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1056,7 +1056,7 @@
       "name": "ZAPPING SPORTS + EVENTOS",
       "country": "ec",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Logo_Zapping_Sports_Perú.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1078,7 +1078,7 @@
       "name": "MOVISTAR DEPORTES PERÚ",
       "country": "pe",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Movistar_Deportes.svg/960px-Movistar_Deportes.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1100,7 +1100,7 @@
       "name": "LIGA 1 MAX",
       "country": "pe",
       "category": "sports",
-      "logo": "",
+      "logo": "https://play-lh.googleusercontent.com/c1VBjhbbiVDH25FZqZA1OwPQCTB5C5L5H6oYVysZ_G1Iq_I4WyGsnQyhsKFpzX_0V9dEi9s9BKSNvYBgC6JOO7E",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1122,7 +1122,7 @@
       "name": "UNIVERSO USA",
       "country": "us",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/8/88/Universo_2017.svg?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1144,7 +1144,7 @@
       "name": "TNT SPORTS",
       "country": "ar",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/TNT_Sports_%282023%29.svg/3840px-TNT_Sports_%282023%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1166,7 +1166,7 @@
       "name": "ESPN PREMIUM",
       "country": "ar",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a1/ESPN_Premium_logo.svg?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1188,7 +1188,7 @@
       "name": "TYC SPORTS",
       "country": "ar",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5e/TyCSp.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1210,7 +1210,7 @@
       "name": "FOX SPORTS",
       "country": "ar",
       "category": "sports",
-      "logo": "",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/1280px-FOX_Sports_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1232,7 +1232,7 @@
       "name": "FOX SPORTS 2",
       "country": "ar",
       "category": "sports",
-      "logo": "",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/1280px-FOX_Sports_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1254,7 +1254,7 @@
       "name": "FOX SPORTS 3",
       "country": "ar",
       "category": "sports",
-      "logo": "",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/1280px-FOX_Sports_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1276,7 +1276,7 @@
       "name": "TELEFE",
       "country": "ar",
       "category": "general",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1298,7 +1298,7 @@
       "name": "FOX DEPORTES USA",
       "country": "us",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/FOX_Deportes_logo.svg/3840px-FOX_Deportes_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1320,7 +1320,7 @@
       "name": "WIN SPORTS PLUS",
       "country": "co",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Win_Sports%2B_logo.svg/1280px-Win_Sports%2B_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1342,7 +1342,7 @@
       "name": "TUDN USA",
       "country": "us",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/TUDN_Logo.svg/1280px-TUDN_Logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1364,7 +1364,7 @@
       "name": "ESPN 1 MX",
       "country": "mx",
       "category": "sports",
-      "logo": "",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/3840px-ESPN_wordmark.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1386,7 +1386,7 @@
       "name": "ESPN 2 MX",
       "country": "mx",
       "category": "sports",
-      "logo": "",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/3840px-ESPN_wordmark.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1408,7 +1408,7 @@
       "name": "ESPN 3 MX",
       "country": "mx",
       "category": "sports",
-      "logo": "",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/3840px-ESPN_wordmark.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1430,7 +1430,7 @@
       "name": "ESPN 4 MX",
       "country": "mx",
       "category": "sports",
-      "logo": "",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/3840px-ESPN_wordmark.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1452,7 +1452,7 @@
       "name": "AZTECA 7",
       "country": "mx",
       "category": "sports",
-      "logo": "",
+      "logo": "https://logowik.com/content/uploads/images/azteca-7-20167446.logowik.com.webp",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1474,7 +1474,7 @@
       "name": "CANAL 5 MX",
       "country": "mx",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/0/07/Logotipo-Canal-5-México.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1496,7 +1496,7 @@
       "name": "ESPN DEPORTES",
       "country": "us",
       "category": "sports",
-      "logo": "",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/3840px-ESPN_wordmark.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1518,7 +1518,7 @@
       "name": "SPORT TV 1",
       "country": "br",
       "category": "sports",
-      "logo": "",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzy3OivPSl5SJC5Dp6Hv9OT0NtfVtSFBkB_7wfsUk6&s=10",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1540,7 +1540,7 @@
       "name": "WIN SPORTS",
       "country": "co",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Win_Sports_nuevo_logo.svg/3840px-Win_Sports_nuevo_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1562,7 +1562,7 @@
       "name": "PREMIERE 1",
       "country": "br",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1584,7 +1584,7 @@
       "name": "PREMIERE 2",
       "country": "br",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1606,7 +1606,7 @@
       "name": "ESPN COLOMBIA",
       "country": "co",
       "category": "sports",
-      "logo": "",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/3840px-ESPN_wordmark.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1628,7 +1628,7 @@
       "name": "ESPN 2 COLOMBIA",
       "country": "co",
       "category": "sports",
-      "logo": "",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/3840px-ESPN_wordmark.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1650,7 +1650,7 @@
       "name": "ESPN 3 COLOMBIA",
       "country": "co",
       "category": "sports",
-      "logo": "",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/3840px-ESPN_wordmark.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1672,7 +1672,7 @@
       "name": "SKY SPORTS LA LIGA",
       "country": "mx",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Sky_Sport_DE_Logo_2016.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1694,7 +1694,7 @@
       "name": "SKY SPORTS F1",
       "country": "mx",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Sky_Sport_DE_Logo_2016.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1716,7 +1716,7 @@
       "name": "SPORT TV 2",
       "country": "br",
       "category": "sports",
-      "logo": "",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzy3OivPSl5SJC5Dp6Hv9OT0NtfVtSFBkB_7wfsUk6&s=10",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1738,7 +1738,7 @@
       "name": "PREMIERE 3",
       "country": "br",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1760,7 +1760,7 @@
       "name": "PREMIERE 4",
       "country": "br",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1782,7 +1782,7 @@
       "name": "PREMIERE 5",
       "country": "br",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1804,7 +1804,7 @@
       "name": "PREMIERE 6",
       "country": "br",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1826,7 +1826,7 @@
       "name": "PREMIERE 7",
       "country": "br",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1848,7 +1848,7 @@
       "name": "PREMIERE 8",
       "country": "br",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1870,7 +1870,7 @@
       "name": "TUDN MX",
       "country": "mx",
       "category": "sports",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/TUDN_Logo.svg/1280px-TUDN_Logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1892,7 +1892,7 @@
       "name": "ESPN AR",
       "country": "ar",
       "category": "sports",
-      "logo": "",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/3840px-ESPN_wordmark.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
@@ -1914,7 +1914,7 @@
       "name": "ESPN 4 AR",
       "country": "ar",
       "category": "sports",
-      "logo": "",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/3840px-ESPN_wordmark.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "enabled": true,
       "sourceType": "streamxhd",
       "sources": [
