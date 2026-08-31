@@ -843,7 +843,7 @@
         {
           "type": "streamxhd",
           "streamId": "espn",
-          "url": "https://stream-xhd.com/live1.php?stream=espn",
+          "url": "https://streamxhd.com/live1.php?stream=espn",
           "priority": 1
         }
       ],
