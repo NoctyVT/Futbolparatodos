@@ -1,0 +1,1935 @@
+{
+  "catalogVersion": 1,
+  "app": "Futbol Para Todos",
+  "generatedFor": "3.0",
+  "streamxhd": {
+    "liveCheck": {
+      "enabled": true,
+      "experimental": true,
+      "strategy": "discover_hls_then_verify",
+      "mediaHostSuffix": ".futlivehd.com",
+      "states": [
+        "checking",
+        "live",
+        "offline",
+        "unknown"
+      ],
+      "cacheSeconds": 60
+    }
+  },
+  "countries": [
+    {
+      "id": "py",
+      "name": "Paraguay",
+      "flag": "🇵🇾",
+      "enabled": true
+    },
+    {
+      "id": "ar",
+      "name": "Argentina",
+      "flag": "🇦🇷",
+      "enabled": true
+    },
+    {
+      "id": "br",
+      "name": "Brasil",
+      "flag": "🇧🇷",
+      "enabled": true
+    },
+    {
+      "id": "pe",
+      "name": "Perú",
+      "flag": "🇵🇪",
+      "enabled": true
+    },
+    {
+      "id": "ec",
+      "name": "Ecuador",
+      "flag": "🇪🇨",
+      "enabled": true
+    },
+    {
+      "id": "co",
+      "name": "Colombia",
+      "flag": "🇨🇴",
+      "enabled": true
+    },
+    {
+      "id": "mx",
+      "name": "México",
+      "flag": "🇲🇽",
+      "enabled": true
+    },
+    {
+      "id": "us",
+      "name": "USA",
+      "flag": "🇺🇸",
+      "enabled": true
+    },
+    {
+      "id": "international",
+      "name": "Internacional",
+      "flag": "🌎",
+      "enabled": true
+    }
+  ],
+  "channels": [
+    {
+      "id": "gen",
+      "name": "GEN",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/006.webp",
+      "enabled": false,
+      "sourceType": "unavailable",
+      "sources": [],
+      "liveCheck": {
+        "enabled": false,
+        "type": "none",
+        "experimental": false
+      },
+      "note": "Sin fuente directa HLS utilizable; canal oculto hasta disponer de una fuente autorizada compatible."
+    },
+    {
+      "id": "popu-tv",
+      "name": "POPU TV",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/007.webp",
+      "enabled": false,
+      "sourceType": "unavailable",
+      "sources": [],
+      "liveCheck": {
+        "enabled": false,
+        "type": "none",
+        "experimental": false
+      },
+      "note": "Sin fuente directa HLS utilizable; canal oculto hasta disponer de una fuente autorizada compatible."
+    },
+    {
+      "id": "trece-py",
+      "name": "TRECE PY",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/008.webp",
+      "enabled": false,
+      "sourceType": "unavailable",
+      "sources": [],
+      "liveCheck": {
+        "enabled": false,
+        "type": "none",
+        "experimental": false
+      },
+      "note": "Sin fuente directa HLS utilizable; canal oculto hasta disponer de una fuente autorizada compatible."
+    },
+    {
+      "id": "unicanal-py",
+      "name": "UNICANAL PY",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/009.webp",
+      "enabled": false,
+      "sourceType": "unavailable",
+      "sources": [],
+      "liveCheck": {
+        "enabled": false,
+        "type": "none",
+        "experimental": false
+      },
+      "note": "Sin fuente directa HLS utilizable; canal oculto hasta disponer de una fuente autorizada compatible."
+    },
+    {
+      "id": "telefuturo",
+      "name": "TELEFUTURO",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/010.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://tigocloud.desdeparaguay.net/telefuturo/telefuturo_py_alta/index.m3u8?admin=tvaccion",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "snt",
+      "name": "SNT",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/445.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://d2b5h5wyivfnfl.cloudfront.net/live/2e1f1b6a-9d03-4194-8559-2eabe61a1555/ts:abr.m3u8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "c9n",
+      "name": "C9N",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/012.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://d2b5h5wyivfnfl.cloudfront.net/live/48f53430-9014-4459-a048-6169dac14140/medialist_15609871089997455276_hls.m3u8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "paravision",
+      "name": "PARAVISION",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/013.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "http://138.59.227.20:8000/play/a0e4/index.m3u8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "abc-color-py",
+      "name": "ABC COLOR PY",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/014.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "http://138.59.227.20:8000/play/a0g6/index.m3u8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "la-tele",
+      "name": "LA TELE",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/015.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "http://138.59.227.20:8000/play/a0fi/index.m3u8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sur-tv",
+      "name": "SUR TV",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/016.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "http://138.59.227.20:8000/play/a0fi/index.m3u8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "america-py",
+      "name": "AMERICA PY",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/017.webp",
+      "enabled": false,
+      "sourceType": "unavailable",
+      "sources": [],
+      "liveCheck": {
+        "enabled": false,
+        "type": "none",
+        "experimental": false
+      },
+      "note": "Sin fuente directa HLS utilizable; canal oculto hasta disponer de una fuente autorizada compatible."
+    },
+    {
+      "id": "5dias-py",
+      "name": "5DIAS PY",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/018.webp",
+      "enabled": false,
+      "sourceType": "unavailable",
+      "sources": [],
+      "liveCheck": {
+        "enabled": false,
+        "type": "none",
+        "experimental": false
+      },
+      "note": "Sin fuente directa HLS utilizable; canal oculto hasta disponer de una fuente autorizada compatible."
+    },
+    {
+      "id": "npy",
+      "name": "NPY",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/019.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "http://138.59.227.20:8000/play/a0fm/index.m3u8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "canal-pro",
+      "name": "CANAL PRO",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/020.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "http://138.59.227.20:8000/play/a0fn/index.m3u8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "megatv",
+      "name": "MEGATV",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/021.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "http://138.59.227.20:8000/play/a0fm/index.m3u8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "paraguay-tv",
+      "name": "PARAGUAY TV",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/022.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://stream.paraguaytv.gov.py/memfs/bbe36fed-9b49-4d1d-adaa-4bd6d1b2e386_output_0.m3u8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "hei-now",
+      "name": "HEI NOW",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/023.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://tigocloud.desdeparaguay.net/heitv/heitv_py_baja/playlist.m3u8?admin=nacion",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "nanduti-tv",
+      "name": "ÑANDUTI TV",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/024.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://nanduti.b-cdn.net/480p.m3u8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "venus-media",
+      "name": "VENUS MEDIA",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/025.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://copacogen.desdeparaguay.net/venusmedia/venusmedia/chunklist_w531747868.m3u8?admin=nacion",
+          "priority": 1
+        },
+        {
+          "type": "hls",
+          "url": "http://138.59.227.20:8000/play/a0fc/index.m3u8",
+          "priority": 2
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "union-tv",
+      "name": "UNION TV",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/026.webp",
+      "enabled": false,
+      "sourceType": "unavailable",
+      "sources": [],
+      "liveCheck": {
+        "enabled": false,
+        "type": "none",
+        "experimental": false
+      },
+      "note": "Sin fuente directa HLS utilizable; canal oculto hasta disponer de una fuente autorizada compatible."
+    },
+    {
+      "id": "tv-camara",
+      "name": "TV CAMARA",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/027.webp",
+      "enabled": false,
+      "sourceType": "unavailable",
+      "sources": [],
+      "liveCheck": {
+        "enabled": false,
+        "type": "none",
+        "experimental": false
+      },
+      "note": "Sin fuente directa HLS utilizable; canal oculto hasta disponer de una fuente autorizada compatible."
+    },
+    {
+      "id": "bruno-masi-tv",
+      "name": "BRUNO MASI TV",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/028.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://www.desde-paraguay.com/brunomasi/brunomasi.m3u8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "rock-pop-py",
+      "name": "ROCK & POP PY",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/029.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://rockandpop.b-cdn.net/480p.m3u8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "tv-max-cnel-oviedo",
+      "name": "TV MAX CNEL OVIEDO",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/030.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://tvmaxsa.com.py/hls/FB-430927919930380-0-AbzjnbAzAIR0NaFg.m3u8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "tvs-encarnacion",
+      "name": "TVS ENCARNACIÓN",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/031.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://stmv6.voxtvhd.com.br:443/tvs/tvs/playlist.m3u8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "pilar-streaming",
+      "name": "PILAR STREAMING",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/032.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://cloudtv.streaming.com.py/pilarrtv/pilarrtv/playlist.m3u8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "cambyreta-tv",
+      "name": "CAMBYRETA TV",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/033.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://cloudtv.streaming.com.py/cambyretatv/cambyretatv/playlist.m3u8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "vision-tv",
+      "name": "VISIÓN TV",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/034.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://rds3gen.desdeparaguay.net/satelitaltv/satelitaltv/chunklist.m3u8?admin=nacion",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      },
+      "info": "Villarica"
+    },
+    {
+      "id": "farratv",
+      "name": "FARRATV",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/035.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "http://138.59.227.20:8000/play/a0gj/index.m3u8",
+          "priority": 1
+        },
+        {
+          "type": "hls",
+          "url": "http://159.203.148.226/live/farra_src.m3u8",
+          "priority": 2
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "xpresstv",
+      "name": "XPRESSTV",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/036.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://video.hostingcaaguazu.com:19360/paraguaritv/paraguaritv.m3u8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "regional-tv",
+      "name": "REGIONAL TV",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/038.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://video.hostingcaaguazu.com:19360/regionaltv/regionaltv.m3u8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      },
+      "info": "INTERCABLE - INTERFLASH"
+    },
+    {
+      "id": "aspen-tv",
+      "name": "ASPEN TV",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/039.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://tigocloud.desdeparaguay.net/aspentv/aspentv/index.m3u8?admin=nacion",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "rcc",
+      "name": "RCC",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/040.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://zn1radios.desdeparaguay.net/rcctv/rcctv/chunklist_w1861373147.m3u8?k=b384c9b3546db887639927ce4fc2268bc5136ba91d3df11ba8d14c49940a2bbb&exp=1777370953",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "vision-tv",
+      "name": "VISION TV",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/041.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://copacogen.desdeparaguay.net/satelitaltv/satelitaltv/chunklist_w1906112169.m3u8?admin=nacion",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      },
+      "info": "97.5 FM"
+    },
+    {
+      "id": "republica-fm-tv",
+      "name": "REPUBLICA FM TV",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/042.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://tigocloud.desdeparaguay.net/republicatv/republicatv/index.m3u8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      },
+      "info": "RADIO - TV 101.3 FM"
+    },
+    {
+      "id": "canal-8",
+      "name": "CANAL 8",
+      "country": "py",
+      "category": "general",
+      "logo": "https://raw.githubusercontent.com/ThedarkSoldier996/novaimg/main/icons/043.webp",
+      "enabled": true,
+      "sourceType": "direct",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "http://138.59.227.20:8000/play/a0fy/index.m3u8",
+          "priority": 1
+        },
+        {
+          "type": "hls",
+          "url": "https://video.hostingcaaguazu.com:19360/canal8cvs/canal8cvs.m3u8",
+          "priority": 2
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "direct_hls",
+        "experimental": true
+      },
+      "info": "Conectados con la Realidad"
+    },
+    {
+      "id": "sx-espn-1",
+      "name": "ESPN 1",
+      "country": "international",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "espn",
+          "url": "https://stream-xhd.com/live1.php?stream=espn",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-espn-2",
+      "name": "ESPN 2",
+      "country": "international",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "espn2",
+          "url": "https://stream-xhd.com/live1.php?stream=espn2",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-espn-3",
+      "name": "ESPN 3",
+      "country": "international",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "espn3",
+          "url": "https://stream-xhd.com/live1.php?stream=espn3",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-espn-4",
+      "name": "ESPN 4",
+      "country": "international",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "espn4",
+          "url": "https://stream-xhd.com/live1.php?stream=espn4",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-espn-5",
+      "name": "ESPN 5",
+      "country": "international",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "espn5",
+          "url": "https://stream-xhd.com/live1.php?stream=espn5",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-espn-6",
+      "name": "ESPN 6",
+      "country": "international",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "espn6",
+          "url": "https://stream-xhd.com/live1.php?stream=espn6",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-espn-7",
+      "name": "ESPN 7",
+      "country": "international",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "espn7",
+          "url": "https://stream-xhd.com/live1.php?stream=espn7",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-dsports-1",
+      "name": "DSPORTS 1",
+      "country": "international",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "dsports",
+          "url": "https://stream-xhd.com/live1.php?stream=dsports",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-dsports-2",
+      "name": "DSPORTS 2",
+      "country": "international",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "dsports2",
+          "url": "https://stream-xhd.com/live1.php?stream=dsports2",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-dsports-plus",
+      "name": "DSPORTS PLUS",
+      "country": "international",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "dsportsplus",
+          "url": "https://stream-xhd.com/live1.php?stream=dsportsplus",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-zapping-sports-eventos",
+      "name": "ZAPPING SPORTS + EVENTOS",
+      "country": "ec",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "zapping_ec",
+          "url": "https://stream-xhd.com/live1.php?stream=zapping_ec",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-movistar-deportes-peru",
+      "name": "MOVISTAR DEPORTES PERÚ",
+      "country": "pe",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "movistar_deportes_peru",
+          "url": "https://stream-xhd.com/live1.php?stream=movistar_deportes_peru",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-liga-1-max",
+      "name": "LIGA 1 MAX",
+      "country": "pe",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "liga1max",
+          "url": "https://stream-xhd.com/live1.php?stream=liga1max",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-universo-usa",
+      "name": "UNIVERSO USA",
+      "country": "us",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "universo",
+          "url": "https://stream-xhd.com/live1.php?stream=universo",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-tnt-sports",
+      "name": "TNT SPORTS",
+      "country": "ar",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "tntsports",
+          "url": "https://stream-xhd.com/live1.php?stream=tntsports",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-espn-premium",
+      "name": "ESPN PREMIUM",
+      "country": "ar",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "espnpremium",
+          "url": "https://stream-xhd.com/live1.php?stream=espnpremium",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-tyc-sports",
+      "name": "TYC SPORTS",
+      "country": "ar",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "tycsports",
+          "url": "https://stream-xhd.com/live1.php?stream=tycsports",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-fox-sports",
+      "name": "FOX SPORTS",
+      "country": "ar",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "fox1ar",
+          "url": "https://stream-xhd.com/live1.php?stream=fox1ar",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-fox-sports-2",
+      "name": "FOX SPORTS 2",
+      "country": "ar",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "fox2ar",
+          "url": "https://stream-xhd.com/live1.php?stream=fox2ar",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-fox-sports-3",
+      "name": "FOX SPORTS 3",
+      "country": "ar",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "fox3ar",
+          "url": "https://stream-xhd.com/live1.php?stream=fox3ar",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-telefe",
+      "name": "TELEFE",
+      "country": "ar",
+      "category": "general",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "telefe",
+          "url": "https://stream-xhd.com/live1.php?stream=telefe",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-fox-deportes-usa",
+      "name": "FOX DEPORTES USA",
+      "country": "us",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "fox_deportes_usa",
+          "url": "https://stream-xhd.com/live1.php?stream=fox_deportes_usa",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-win-sports-plus",
+      "name": "WIN SPORTS PLUS",
+      "country": "co",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "winplus",
+          "url": "https://stream-xhd.com/live1.php?stream=winplus",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-tudn-usa",
+      "name": "TUDN USA",
+      "country": "us",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "tudn_usa",
+          "url": "https://stream-xhd.com/live1.php?stream=tudn_usa",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-espn-1-mx",
+      "name": "ESPN 1 MX",
+      "country": "mx",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "espnmx",
+          "url": "https://stream-xhd.com/live1.php?stream=espnmx",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-espn-2-mx",
+      "name": "ESPN 2 MX",
+      "country": "mx",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "espn2mx",
+          "url": "https://stream-xhd.com/live1.php?stream=espn2mx",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-espn-3-mx",
+      "name": "ESPN 3 MX",
+      "country": "mx",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "espn3mx",
+          "url": "https://stream-xhd.com/live1.php?stream=espn3mx",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-espn-4-mx",
+      "name": "ESPN 4 MX",
+      "country": "mx",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "espn4mx",
+          "url": "https://stream-xhd.com/live1.php?stream=espn4mx",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-azteca-7",
+      "name": "AZTECA 7",
+      "country": "mx",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "azteca7",
+          "url": "https://stream-xhd.com/live1.php?stream=azteca7",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-canal-5-mx",
+      "name": "CANAL 5 MX",
+      "country": "mx",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "canal5mx",
+          "url": "https://stream-xhd.com/live1.php?stream=canal5mx",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-espn-deportes",
+      "name": "ESPN DEPORTES",
+      "country": "us",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "espndeportes",
+          "url": "https://stream-xhd.com/live1.php?stream=espndeportes",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-sport-tv-1",
+      "name": "SPORT TV 1",
+      "country": "br",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "sporttvbr1",
+          "url": "https://stream-xhd.com/live1.php?stream=sporttvbr1",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-win-sports",
+      "name": "WIN SPORTS",
+      "country": "co",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "winsports",
+          "url": "https://stream-xhd.com/live1.php?stream=winsports",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-premiere-1",
+      "name": "PREMIERE 1",
+      "country": "br",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "premiere1",
+          "url": "https://stream-xhd.com/live1.php?stream=premiere1",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-premiere-2",
+      "name": "PREMIERE 2",
+      "country": "br",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "premiere2",
+          "url": "https://stream-xhd.com/live1.php?stream=premiere2",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-espn-colombia",
+      "name": "ESPN COLOMBIA",
+      "country": "co",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "espnco",
+          "url": "https://stream-xhd.com/live1.php?stream=espnco",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-espn-2-colombia",
+      "name": "ESPN 2 COLOMBIA",
+      "country": "co",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "espn2co",
+          "url": "https://stream-xhd.com/live1.php?stream=espn2co",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-espn-3-colombia",
+      "name": "ESPN 3 COLOMBIA",
+      "country": "co",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "espn3co",
+          "url": "https://stream-xhd.com/live1.php?stream=espn3co",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-sky-sports-la-liga",
+      "name": "SKY SPORTS LA LIGA",
+      "country": "mx",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "sky_sports_laliga",
+          "url": "https://stream-xhd.com/live1.php?stream=sky_sports_laliga",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-sky-sports-f1",
+      "name": "SKY SPORTS F1",
+      "country": "mx",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "sky_f1",
+          "url": "https://stream-xhd.com/live1.php?stream=sky_f1",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-sport-tv-2",
+      "name": "SPORT TV 2",
+      "country": "br",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "sporttvbr2",
+          "url": "https://stream-xhd.com/live1.php?stream=sporttvbr2",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-premiere-3",
+      "name": "PREMIERE 3",
+      "country": "br",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "premiere3",
+          "url": "https://stream-xhd.com/live1.php?stream=premiere3",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-premiere-4",
+      "name": "PREMIERE 4",
+      "country": "br",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "premiere4",
+          "url": "https://stream-xhd.com/live1.php?stream=premiere4",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-premiere-5",
+      "name": "PREMIERE 5",
+      "country": "br",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "premiere5",
+          "url": "https://stream-xhd.com/live1.php?stream=premiere5",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-premiere-6",
+      "name": "PREMIERE 6",
+      "country": "br",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "premiere6",
+          "url": "https://stream-xhd.com/live1.php?stream=premiere6",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-premiere-7",
+      "name": "PREMIERE 7",
+      "country": "br",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "premiere7",
+          "url": "https://stream-xhd.com/live1.php?stream=premiere7",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-premiere-8",
+      "name": "PREMIERE 8",
+      "country": "br",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "premiere8",
+          "url": "https://stream-xhd.com/live1.php?stream=premiere8",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-tudn-mx",
+      "name": "TUDN MX",
+      "country": "mx",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "tudnmx",
+          "url": "https://stream-xhd.com/live1.php?stream=tudnmx",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-espn-ar",
+      "name": "ESPN AR",
+      "country": "ar",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "espnar",
+          "url": "https://stream-xhd.com/live1.php?stream=espnar",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    },
+    {
+      "id": "sx-espn-4-ar",
+      "name": "ESPN 4 AR",
+      "country": "ar",
+      "category": "sports",
+      "logo": "",
+      "enabled": true,
+      "sourceType": "streamxhd",
+      "sources": [
+        {
+          "type": "streamxhd",
+          "streamId": "espn4ar",
+          "url": "https://stream-xhd.com/live1.php?stream=espn4ar",
+          "priority": 1
+        }
+      ],
+      "liveCheck": {
+        "enabled": true,
+        "type": "streamxhd_hls",
+        "experimental": true
+      }
+    }
+  ]
+}
