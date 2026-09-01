@@ -1,7 +1,7 @@
 {
-  "versionCode": 6,
-  "versionName": "2.2",
-  "apkUrl": "https://github.com/NoctyVT/Futbolparatodos/releases/download/2.2/Futbol2.2.apk",
-  "changelog": "Actualizacion Grafica",
+  "versionCode": 7,
+  "versionName": "3.0",
+  "apkUrl": "https://github.com/NoctyVT/Futbolparatodos/releases/download/3.0/Futbolparatodosplusultra.apk",
+  "changelog": "Actualizacion Gigante, añadido tigo sports y mas de 431 canales (algunos son experimentales y pueden no funcionar",
   "mandatory": true
 }
