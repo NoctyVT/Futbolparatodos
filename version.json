@@ -1,7 +1,7 @@
 {
-  "versionCode": 9,
-  "versionName": "3.2",
-  "apkUrl": "https://github.com/NoctyVT/Futbolparatodos/releases/download/3.2/runningtomyhead.apk",
+  "versionCode": 10,
+  "versionName": "3.3",
+  "apkUrl": "https://github.com/NoctyVT/Futbolparatodos/releases/download/3.3/handsupandhandsdown.apk",
   "changelog": "pequeño bug arreglado",
   "mandatory": true
 }
