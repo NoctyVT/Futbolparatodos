@@ -1,7 +1,7 @@
 {
-  "versionCode": 7,
-  "versionName": "3.0",
-  "apkUrl": "https://github.com/NoctyVT/Futbolparatodos/releases/download/3.0/Futbolparatodosplusultra.apk",
-  "changelog": "Actualizacion Gigante, añadido tigo sports y mas de 431 canales (algunos son experimentales y pueden no funcionar",
+  "versionCode": 8,
+  "versionName": "3.1",
+  "apkUrl": "https://github.com/NoctyVT/Futbolparatodos/releases/download/3.1/allthethingsshesaid.apk",
+  "changelog": "Añadidos mas de 200 canales, bug fixings y compatibilidad",
   "mandatory": true
 }
