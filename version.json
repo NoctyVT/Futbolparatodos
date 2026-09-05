@@ -1,7 +1,7 @@
 {
-  "versionCode": 10,
-  "versionName": "3.3",
-  "apkUrl": "https://github.com/NoctyVT/Futbolparatodos/releases/download/3.3/handsupandhandsdown.apk",
-  "changelog": "pequeño bug arreglado",
+  "versionCode": 11,
+  "versionName": "3.4",
+  "apkUrl": "https://github.com/NoctyVT/Futbolparatodos/releases/download/3.4/irisout.apk",
+  "changelog": "optimizacion y mas canales agregados",
   "mandatory": true
 }
