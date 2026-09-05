@@ -1,7 +1,7 @@
 {
   "versionCode": 12,
   "versionName": "3.5",
-  "apkUrl": "https://github.com/NoctyVT/Futbolparatodos/releases/download/3.4/irisout.apk",
+  "apkUrl": "https://github.com/NoctyVT/Futbolparatodos/releases/download/3.5/bataeu.apk",
   "changelog": "Compatibilidad para android TV",
-  "mandatory": true
+  "mandatory": false
 }
