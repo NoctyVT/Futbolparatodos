@@ -1,7 +1,7 @@
 {
-  "versionCode": 12,
-  "versionName": "3.5",
-  "apkUrl": "https://github.com/NoctyVT/Futbolparatodos/releases/download/3.5/bataeu.apk",
-  "changelog": "Compatibilidad para android TV",
-  "mandatory": false
+  "versionCode": 13,
+  "versionName": "3.6",
+  "apkUrl": "https://github.com/NoctyVT/Futbolparatodos/releases/download/3.6/CosaQueHizoPato.apk",
+  "changelog": "Pato is love Pato is life",
+  "mandatory": true
 }
