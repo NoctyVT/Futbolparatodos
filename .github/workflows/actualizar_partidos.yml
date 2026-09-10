@@ -1,0 +1,40 @@
+name: Actualizar partidos FPT
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-fixtures:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generar partidos.json
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+          API_FOOTBALL_LEAGUE_IDS: ${{ vars.API_FOOTBALL_LEAGUE_IDS }}
+        run: python tools/update_partidos.py
+
+      - name: Guardar cambios
+        run: |
+          if git diff --quiet -- partidos.json; then
+            echo "Sin cambios en partidos.json"
+            exit 0
+          fi
+          git config user.name "fpt-fixture-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add partidos.json
+          git commit -m "Actualizar partidos FPT"
+          git push
