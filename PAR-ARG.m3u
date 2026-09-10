@@ -1,0 +1,138 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://grupovierci.brightspotcdn.com/dims4/default/26b9e86/2147483647/strip/true/crop/1777x1790+0+0/resize/800x806!/quality/90/url=https%3A%2F%2Fk2-prod-grupo-vierci.s3.us-east-1.amazonaws.com%2Fbrightspot%2F0e%2Fb6%2F257502f9436b86d576eb823654f6%2Flogo-tf.png",TELEFUTURO
+https://copacogen.desdeparaguay.net/telefuturo/telefuturo_py_alta/media.m3u8?admin=tvaccion
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png",TELEFE
+http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/telefe.playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HNcCX3h.png",TELEFE INTERNACIONAL
+http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/81.m3u8
+
+#EXTINF:-1 tvg-logo="https://grupovierci.brightspotcdn.com/dims4/default/1b3d72b/2147483647/strip/true/resize/400x%5E/quality/90/?url=https%3A%2F%2Fk2-prod-grupo-vierci.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ff1%2F82%2F0f4ad1784b01a07ceac4d5aba972%2Flogo-npy-2024.webp",NPY
+https://copacogen.desdeparaguay.net/npy/npy_py_alta/playlist.m3u8?admin=tvaccion
+
+#EXTINF:-1 tvg-logo="https://grupovierci.brightspotcdn.com/dims4/default/2aabebb/2147483647/strip/true/crop/450x290+0+0/resize/400x258!/quality/90/?url=https%3A%2F%2Fk2-prod-grupo-vierci.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ffd%2F16%2Fa36ce1d2417caad3e0670e43991b%2Flogo-monumental.png",MONUMENTAL
+https://copacogen.desdeparaguay.net/monumentaltv/monumentaltv_med/playlist.m3u8?admin=tvaccion
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vFwPhPS.png",TN
+http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/tn_720.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vFwPhPS.png",TN [YOUTUBE]
+https://latam-cache-sv2-cdn.latamlive.net/TN_ENC_LIVE/index.mpd
+
+#EXTINF:-1 tvg-logo="https://iptv-epg.org/logos/Paraguay/ABCTV.py.png",ABC TV
+http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/7.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/XGrkzN3.png",TV PUBLICA
+http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-11_720.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv-epg.org/logos/Paraguay/SNT.py.png",SNT
+https://d2qsan2ut81n2k.cloudfront.net/live/2e1f1b6a-9d03-4194-8559-2eabe61a1555/ts:abr.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/cJHP7bU.png",CANAL 9
+http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-16.playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv-epg.org/logos/Paraguay/Paravision.py.png",PARAVISION
+http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/120.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e8/Cr%C3%B3nica_TV_logotipo_%282008-2015%29.png",CRONICA
+http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/CronicaTv.playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://201.217.246.42:44310/images/AR12_285.png",AR 12
+http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-21.playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv-epg.org/logos/Paraguay/latele.py.png",LATELE
+https://copacotf.desdeparaguay.net/latele/latele_py_alta/playlist.m3u8?admin=tvaccion
+
+#EXTINF:-1 tvg-logo="https://www.desdeparaguay.com/images_hpy/logos/radios/90x90px2/rockandpoptv.png",ROCK & POP
+https://copacoradios.desdeparaguay.net/rockandpoptv/rockandpoptv_baja/chunklist.m3u8?admin=nacion
+
+#EXTINF:-1 tvg-logo="https://www.desdeparaguay.com/images_hpy/logos/radios/90x90px2/800tv.png",UNION 800 TV
+https://copacogen.desdeparaguay.net/800tv/800tv/index.m3u8?admin=nacion
+
+#EXTINF:-1 tvg-logo="https://www.desdeparaguay.com/images_hpy/logos/radios/90x90px2/aspentv.png",ASPEN TV
+https://copacogen.desdeparaguay.net/aspentv/aspentv/index.m3u8?admin=nacion
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/500px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png", AMERICA PY
+http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/83.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/mqUqMU6.png", AMERICA INTERNACIONAL
+http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-17.playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/mqUqMU6.png", A24 PARAGUAY
+http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/6.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/LnXQkIU.png",A24 INTERNACIONAL
+http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/a24.playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv-epg.org/logos/Paraguay/ParaguayTV.py.png",PARAGUAY TV
+https://stream.paraguaytv.gov.py/memfs/bbe36fed-9b49-4d1d-adaa-4bd6d1b2e386.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Gj1kqH5.png",LN+
+http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/lntv.playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5ZNZYjO.png",C5N
+http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/c5n.playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv-epg.org/logos/Paraguay/C9N.py.png",C9N
+https://d1y0t05eznkmpn.cloudfront.net/original.m3u8
+
+#EXTINF:-1 tvg-logo="https://media.trece.com.py/sites/2/2025/09/logotrece_2025.webp",TRECE PY
+http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/82.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/TrgBAdA.png",TRECE AR
+http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/eltrece_720.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/TrgBAdA.png",TRECE INTERNACIONAL
+http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/23.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv-epg.org/logos/Paraguay/Unicanal.py.png",UNICANAL
+http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/72.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NgIBbPX.png",RURAL
+http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/rural.playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/THk9ARS.png",DEPORTV
+http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/deportv.playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vEMnZF4_d.webp?maxwidth=760&fidelity=grand",GEN 
+https://copacogen.desdeparaguay.net/gentv/gentv_py_alta/playlist.m3u8?admin=nacion
+
+#EXTINF:-1 tvg-logo="https://www.popular.com.py/joajishi/assets/img/tag-3.png",POPU
+https://copacogen.desdeparaguay.net/universotv/universotv_py_alta/playlist.m3u8?admin=nacion
+
+#EXTINF:-1 tvg-logo="https://megacadena.com.py/wp-content/uploads/2023/10/megacadena-w23-1.png",MEGA
+https://www.desde-paraguay.com/mega.m3u8
+
+#EXTINF:-1 tvg-logo="https://i0.wp.com/television.com.py/wp-content/uploads/2016/08/LogoCanalPro.jpg?w=620&ssl=1",PRO
+https://www.desde-paraguay.com/pro.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oMHiGRN_d.webp?maxwidth=760&fidelity=grand",HEI
+https://copacogen.desdeparaguay.net/heitv/heitv_py_alta/playlist.m3u8?admin=nacion
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oMML5Ue_d.webp?maxwidth=760&fidelity=gran",TROPICALIA
+https://copacogen.desdeparaguay.net/tropicaliatv/tropicaliatv_py_alta/chunklist.m3u8?admin=nacion
+
+#EXTINF:-1 tvg-logo="https://grupovierci.brightspotcdn.com/dims4/default/853d5fc/2147483647/strip/true/crop/994x472+0+0/resize/400x190!/quality/90/?url=https%3A%2F%2Fk2-prod-grupo-vierci.s3.us-east-1.amazonaws.com%2Fbrightspot%2F66%2Fbd%2F3159d2b245dbb75fe3c0aad32eac%2Flogo-e40-2026.png",E40
+https://copacotf.desdeparaguay.net/e40tv/e40tv_py_alta/playlist.m3u8?admin=tvaccion
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/XwmUbfp_d.webp?maxwidth=760&fidelity=grand",VENUS MEDIA
+https://zn1gen.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/RO9Dz3X.png",QMUSICA.TV
+http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-51.playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f2/Logo_HTV_2009.jpg",HTV
+http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/40.m3u8
+
+#EXTINF:-1 tvg-logo="https://farra.com.py/wp-content/uploads/2025/04/LOGO-DE-FARRA_2-1.png",FARRA TV
+https://stream.farra.com.py/live/farra.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv-epg.org/logos/Paraguay/TigoSports.py.png",TIGO SPORTS [SOLO EVENTOS]
+https://copacogen.desdeparaguay.net@live.enhdtv.com:8081/8160/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png",TYC SPORTS
+http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-90.playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png",TYC SPORTS POR TWITCH
+http://38.7.216.143:80/play/GFkoA2cSBVY4fRPVPQMv5l2aO3MhS2rQ8EUE_MeiUYIc8jwCgWoE3b5Tu4IBELzI/m3u8
