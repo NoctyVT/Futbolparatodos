@@ -1,7 +1,7 @@
 {
-  "generado_en": null,
-  "ventana_desde": null,
-  "ventana_hasta": null,
-  "fuentes_consultadas": {},
+  "schema": 1,
+  "generated_at": null,
+  "window_days": 21,
+  "competiciones": {},
   "partidos": []
 }
