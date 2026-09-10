@@ -1,7 +1,43 @@
 {
   "schema": 1,
-  "generated_at": null,
+  "generated_at": "2026-09-10T21:33:41Z",
   "window_days": 21,
-  "competiciones": {},
+  "competiciones": {
+    "argentina": {
+      "fuente": "sin-datos",
+      "errores": [
+        "api-football: API-Football devolvió error: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+        "football-data: football-data.org no está configurada para esta competición"
+      ]
+    },
+    "paraguay": {
+      "fuente": "sin-datos",
+      "errores": [
+        "api-football: API-Football devolvió error: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+        "football-data: football-data.org no está configurada para esta competición"
+      ]
+    },
+    "libertadores": {
+      "fuente": "sin-datos",
+      "errores": [
+        "api-football: API-Football devolvió error: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+        "football-data: FOOTBALL_DATA_KEY no configurada"
+      ]
+    },
+    "sudamericana": {
+      "fuente": "sin-datos",
+      "errores": [
+        "api-football: API-Football devolvió error: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+        "football-data: football-data.org no está configurada para esta competición"
+      ]
+    },
+    "champions": {
+      "fuente": "sin-datos",
+      "errores": [
+        "api-football: API-Football devolvió error: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+        "football-data: FOOTBALL_DATA_KEY no configurada"
+      ]
+    }
+  },
   "partidos": []
 }
