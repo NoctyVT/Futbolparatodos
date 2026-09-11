@@ -1,7 +1,7 @@
 {
-  "versionCode": 13,
-  "versionName": "3.6",
+  "versionCode": 14,
+  "versionName": "4.0",
   "apkUrl": "https://github.com/NoctyVT/Futbolparatodos/releases/download/3.6/CosaQueHizoPato.apk",
-  "changelog": "Pato is love Pato is life",
+  "changelog": "Cambio completo a la estructura de la aplicacion",
   "mandatory": true
 }
