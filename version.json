@@ -1,7 +1,7 @@
 {
-  "versionCode": 15,
-  "versionName": "4.1",
+  "versionCode": 16,
+  "versionName": "4.2",
   "apkUrl": "https://github.com/NoctyVT/Futbolparatodos/releases/download/4.1/delturron.apk",
-  "changelog": "Cambio completo a la estructura de la aplicacion",
+  "changelog": "Bugs solucionados",
   "mandatory": true
 }
