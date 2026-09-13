@@ -1,7 +1,7 @@
 {
-  "versionCode": 16,
-  "versionName": "4.2",
+  "versionCode": 17,
+  "versionName": "4.3",
   "apkUrl": "https://github.com/NoctyVT/Futbolparatodos/releases/download/4.2/cuaso.apk",
-  "changelog": "Bugs solucionados",
+  "changelog": "Cuevana ya tiene nueva URL, LAmovie ya funciona correctamente, nueva URL para anime, ajustes añadidos",
   "mandatory": true
 }
